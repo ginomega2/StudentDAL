@@ -52,10 +52,10 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", curso='" + curso + '\'' +
-                ", mensualidad=" + mensualidad +
+                "id:" + id +
+                ", name:'" + name + '\'' +
+                ", curso:'" + curso + '\'' +
+                ", mensualidad:" + mensualidad +
                 '}';
     }
 }

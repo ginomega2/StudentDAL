@@ -53,7 +53,7 @@ class StudentDalApplicationTests {
 
     @Test
     void testUpdateStudent(){
-        Student student = repository.findById(1l).get();
+        Student student = repository.findById(2l).get();
         System.out.println("registro de Estudiante por a actualizar  "+student);
         System.out.println(student);
         student.setName("1 nombre cambiado");
@@ -66,7 +66,7 @@ class StudentDalApplicationTests {
 
     @Test
     void testDeleteStudent(){
-        Student student = repository.findById(1l).get();
+        Student student = repository.findById(2l).get();
         System.out.println("registro de Estudiante que sera borrado "+student);
         repository.delete(student);
 
