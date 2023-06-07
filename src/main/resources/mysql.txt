@@ -1,0 +1,32 @@
+create database projectdb;
+
+use projectdb;
+
+create table studenttab(
+id int primary key auto_increment,
+sname varchar(20),
+scurso varchar(30),
+mensualidad int
+);
+
+select * from studenttab;
+
+
+INSERT INTO `projectdb`.`studenttab` (`id`, `sname`, `scurso`, `mensualidad`) VALUES ('1', 'krsna', 'java', '333');
+INSERT INTO `projectdb`.`studenttab` (`id`, `sname`, `scurso`, `mensualidad`) VALUES ('2', 'krsna', 'java', '333');
+INSERT INTO `projectdb`.`studenttab` (`id`, `sname`, `scurso`, `mensualidad`) VALUES ('3', 'krsna', 'java', '333');
+INSERT INTO `projectdb`.`studenttab` (`id`, `sname`, `scurso`, `mensualidad`) VALUES ('4', 'krsna', 'java', '333');
+INSERT INTO `projectdb`.`studenttab` (`id`, `sname`, `scurso`, `mensualidad`) VALUES ('5', 'krsna', 'java', '333');
+INSERT INTO `projectdb`.`studenttab` (`id`, `sname`, `scurso`, `mensualidad`) VALUES ('6', 'krsna', 'java', '333');
+INSERT INTO `projectdb`.`studenttab` (`id`, `sname`, `scurso`, `mensualidad`) VALUES ('7', 'krsna', 'java', '333');
+
+INSERT INTO `projectdb`.`studenttab` (`id`, `sname`, `scurso`, `mensualidad`) VALUES ('7', 'krsna', 'java', '333');
+
+drop table studenttab;
+
+
+create table projectdb.Customer(
+id int PRIMARY KEY AUTO_INCREMENT,
+name varchar(50),
+email varchar(50)
+);
