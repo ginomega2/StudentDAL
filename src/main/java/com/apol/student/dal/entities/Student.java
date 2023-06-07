@@ -48,4 +48,14 @@ public class Student {
     public void setMensualidad(double mensualidad) {
         this.mensualidad = mensualidad;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", curso='" + curso + '\'' +
+                ", mensualidad=" + mensualidad +
+                '}';
+    }
 }
